@@ -13,7 +13,7 @@ export class ItemComponent implements OnInit {
   producto: ProductoDescripcion;
   id: string;
 
-  constructor(private route: ActivatedRoute, private productosService: ProductosService) { }
+  constructor(private route: ActivatedRoute, public productosService: ProductosService) { }
 
   ngOnInit() {
     this.route.params.subscribe( parametros => {

@@ -8,7 +8,7 @@ import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private _infoServices: InfoPaginaService) { }
+  constructor(public _infoServices: InfoPaginaService) { }
 
   ngOnInit() {
   }
