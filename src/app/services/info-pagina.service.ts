@@ -12,7 +12,7 @@ export class InfoPaginaService {
   equipo: any[] = [];
 
   constructor( private http: HttpClient) {
-    // this.cargarInfo();
+    this.cargarInfo();
     this.cargarEquipo();
   }
 
